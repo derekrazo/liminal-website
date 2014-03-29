@@ -1,3 +1,7 @@
+---
+standalone: true
+---
+
 @import '../../../node_modules/font-awesome/less/font-awesome.less';
 @fa-font-path:  "../fonts";
 
@@ -28,6 +32,7 @@ body {
 	.menu {
 		float: right;
 		margin-right: 50px;
+		width: 500px;
 	
 		.item {
 			float: left;
@@ -47,7 +52,7 @@ body {
 	width: 100%;
 	position: absolute;
 	top: 85px;
-
+	height: 500px;
 }
 
 /*Stupid hack to make opacity work*/
@@ -63,7 +68,6 @@ body {
   position: absolute;
   z-index: -1;   
   background-size: 100%;
-  height: 450px;
 
 }
 
@@ -72,7 +76,65 @@ body {
 	margin-bottom: 0px;
 	opacity: 1.0;
 	position: relative;
-	top: 125px;
+	top: 175px;
 	left: 22%;
 	font-size: 60px;
+	width: 800px;
 }
+
+.about.container {
+	position: relative;
+	top: 339px;
+	height: 350px;
+	margin: 0 auto;
+	margin-left: 5px;
+}
+
+.about.component.container {
+	position: relative;
+	top:50px;
+	left:9%;
+	float: left;
+	height: 300px;
+	width: 300px;
+
+	> img {
+		height: 100px;
+		width: 100px;
+		position: relative;
+		left: 34%;
+	}
+
+	> p {
+		text-align: center;
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+
+}
+
+#what {
+	margin-left: 130px
+}
+
+#how {
+	margin-left: 130px
+}
+
+#colab {
+	height: 80px;
+	width: 80px;
+	margin-left: 8px;
+	margin-top: 10px;
+}
+
+#content {
+	font-size: 20px;
+}
+
+.colabcontent {
+	margin-top: 32px;
+}
+
+
+
