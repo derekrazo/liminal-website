@@ -7,7 +7,11 @@ module.exports = {
     site: {
       title: "Subliminal Spaces",
       description: "Creating Spaces That Inspire",
-      styles: ["/styles/index.css"],
+      styles: [
+        "/styles/index.css",
+        "http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,800,900",
+        "http://fonts.googleapis.com/css?family=The+Girl+Next+Door",
+      ],
       scripts: ["/scripts/bundle.js"],
     },
   },
