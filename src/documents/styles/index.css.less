@@ -1,0 +1,64 @@
+@import '../../../node_modules/font-awesome/less/font-awesome.less';
+@fa-font-path:  "../fonts";
+
+@import '../../../node_modules/semantic/src/elements/icon.less';
+
+body {
+	margin: 0;
+	/* font-family: 'Alegreya Sans', sans-serif; */
+	font-family: 'The Girl Next Door', cursive;
+	min-height: 900px;
+}
+
+.navbar {
+	width: 100%;
+	height: 85px;
+	background: white;
+	z-index: 999;
+
+	.logo {
+		float: left;
+		margin-left: 50px;
+		font-size: 25px;
+		color: black;
+		margin-top: 28px;
+	}
+
+	.menu {
+		float: right;
+		margin-right: 50px;
+	
+		.item {
+			float: left;
+			margin-right: 40px;
+
+			> p {
+				margin-top: 29px;
+				font-size: 25px;
+				color: black;
+			}
+		}
+	}
+}
+
+/*Stupid hack to make opacity work*/
+.slider.container::after {
+  content: "";
+  background: url("/images/spaces.jpg") no-repeat;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  background-size: 100%;
+  height: 550px;
+
+}
+
+.slider.container > p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	opacity: 1.0;
+}
