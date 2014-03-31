@@ -5,7 +5,7 @@ require('longjohn');
 module.exports = {
   templateData: {
     site: {
-      title: "Subliminal Spaces",
+      title: "Liminal Spaces Project",
       description: "Creating Spaces That Inspire",
       styles: [
         "/styles/index.css",

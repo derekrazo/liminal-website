@@ -18,7 +18,7 @@ body {
 	width: 100%;
 	height: 85px;
 	background: white;
-	z-index: 999;
+	z-index: 99999;
 	position: fixed;
 
 	.logo {
@@ -87,7 +87,8 @@ body {
 	top: 339px;
 	height: 350px;
 	margin: 0 auto;
-	margin-left: 5px;
+	margin-left: 0px;
+	margin-top: 20px;
 }
 
 .about.component.container {
@@ -130,6 +131,7 @@ body {
 
 #content {
 	font-size: 20px;
+	width: 310px;
 }
 
 .colabcontent {
@@ -137,4 +139,214 @@ body {
 }
 
 
+.events.container {
+	position: relative;
+	top: 300px;
+	height: 450px;
+	margin: 0 auto;
+	margin-left: 0px;
+	margin-top: 180px;
+	background: #fff;
+	border: 10px;
+
+}
+
+
+
+.events.component.container {
+	position: relative;
+	top: 30px;
+	left: 9%;
+	float: left;
+	height: 394px;
+	width: 300px;
+	margin-top: 10px;
+	outline: 5px #888888;
+	box-shadow: 3px 3px 5px #888888;
+	margin-left: 20px;
+	outline: solid grey 1px;
+
+	> img {
+		height: 100px;
+		width: 100px;
+		position: relative;
+		left: 34%;
+	}
+
+	> p {
+		text-align: center;
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+
+	> button {
+		text-align: center;
+		font-size: 23px;
+		margin-bottom: 10px;
+		position:absolute;	
+		top: 320px;
+		left: 19%;
+		background: #0089bb;
+		border: none;
+		width: 180px;
+		height: 50px;
+		/*box-shadow: 3px 3px 5px #888888;*/
+		font-family: 'The Girl Next Door', cursive;
+		outline: #888888;
+		line-height: 50px;
+		box-shadow: 3px 3px 5px #888888;
+	}
+
+	
+}
+
+
+.details {
+
+		text-align: center;
+		font-size: 23px;
+		margin-bottom: 10px;
+		position:absolute;	
+		top: 320px;
+		left: 19%;
+		border: none;
+		width: 180px;
+		height: 50px;
+		/*box-shadow: 3px 3px 5px #888888;*/
+		font-family: 'The Girl Next Door', cursive;
+		line-height: 80px;
+
+}
+
+.events.component.container.long {
+	z-index: 0;
+	width: 60%;
+	background: #399bb7;
+	
+}
+
+/*Stupid hack to make opacity work*/
+
+.events.component.container.long::after {
+  content: "";
+  background: url("/images/velements.png") no-repeat;
+  opacity: 1;
+  top: 130px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  background-size: 100%;
+
+}
+
+
+.component.top.panel {
+
+	height: 70px;
+	line-height: 80px;
+	z-index: -1000px;
+
+	> p {
+		text-align: center;
+		font-size: 40px;
+		margin-bottom: 10px;
+		margin-top:0;
+	}
+
+	background: #fff;
+	outline: solid grey 1px;
+
+	
+}
+
+.action {
+	position: relative;
+	top: 300px;
+	height: 400px
+
+}
+
+.action.component.container {
+	top: 20px;
+	height: 370px;
+	width: 500px;
+	left: 34%;
+	font-size: 30px;
+	text-align: center;
+
+	#call-to-action {
+		margin-bottom: 10px;
+		background: #fff;
+		width: 400px;
+		position: relative;
+		text-align: center;
+		left: 10%;
+	}
+
+	#letter-description {
+		font-size: 22px;
+		text-align: center;
+		left: -20%;
+		margin-top: 10px;
+
+	}
+
+	> button {
+		text-align: center;
+		font-size: 23px;
+		margin-bottom: 10px;
+		position:absolute;	
+		left: 162px;
+		background: #e79f17;
+		border: none;
+		width: 180px;
+		height: 50px;
+		/*box-shadow: 3px 3px 5px #888888;*/
+		font-family: 'The Girl Next Door', cursive;
+		outline: #888888;
+		line-height: 50px;
+		margin-top: 45px;
+		box-shadow: 3px 3px 5px #888888;
+	}
+
+	.email {
+			position: relative;
+			top: -30px;
+	  	height: 30px;
+	  	width: 220px;
+	  	margin-top: 20px;
+
+		  border-radius: 6px;
+		  border: 1px solid #e9e9e9;
+
+		  outline-color: #ffffff;
+		  outline-width: 1px;
+
+		  box-shadow: 0px 0px 0px 1pt;
+
+		  outline-color: #ffffff;
+		  outline-width: 1px;
+
+		  font-size: 17px;
+	}
+
+	hr {
+		position: relative;
+		top: 55px;
+		z-index: -30;
+		width: 600px;
+		left: -50px;
+	}
+}
+
+.page {
+	position: absolute;
+	width: 100%;
+	top: 300px;
+	font-size: 40px;
+	text-align: center;
+
+}
 

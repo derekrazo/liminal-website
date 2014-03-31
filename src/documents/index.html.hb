@@ -7,4 +7,9 @@ menuHidden: true
   <p>{{ site.description }}</p>
 
   {{partial "about-intro.html"}}
+
+  {{partial "events-intro.html"}}
+
+  {{partial "action-intro.html"}}
+
 </div>
