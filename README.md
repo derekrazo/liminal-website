@@ -1,13 +1,13 @@
-# yourproject.is
+# liminal-website
 
-website for [yourproject](http://yourproject.is) built using [DocPad](http://docpad.org).
+website for [liminal spaces](http://liminalspaces) built using [DocPad](http://docpad.org).
 
 ## how to
 
 ### install
 
 ```
-git clone https://github.com/yourname/yourproject.is
+git clone https://github.com/derekrazo/liminal-website
 npm install
 ```
 
