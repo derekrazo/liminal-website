@@ -1,7 +1,7 @@
 <div class="menu">
   <% menuItems.forEach(function (item) { %>
 
-  <a href="<%= item.url %>">
+  <a href=".<%= item.url %>">
     <div class="<% if (item.state) { %>active <% } %>item" id="<%= item.url.replace(/.html$/, "") %>">
       <p><%= item.title %></p>
     </div>
